@@ -1,0 +1,58 @@
+
+.card-profile {
+  //width: 300px;
+  margin: 50px auto;
+  background-color: $card-bg;
+  border-radius: 0;
+  border: 0;
+  box-shadow: 0.2em 0.1em 0.5em rgba(0, 0, 0, 0.2);
+
+  .card-img-top {
+    border-radius: 0;
+  }
+
+  .card-img-profile {
+    max-width: 180px;
+    //border-radius: 50%;
+    margin-top: -50px;
+    margin-bottom: 35px;
+    border: 5px solid $card-bg;
+  }
+
+  .card-title {
+    margin-bottom: 50px;
+
+    small {
+      display: block;
+      font-size: .6em;
+      margin-top: .2em;
+    }
+  }
+
+  .card-links {
+    margin-bottom: 25px;
+
+    .fa {
+      margin: 0 1em;
+      font-size: 1.6em;
+
+      &:focus,
+      &:hover {
+        text-decoration: none;
+      }
+
+    }
+  }
+}
+
+.friend-card {
+  margin: 50px auto;
+}
+
+.friend-img {
+  margin-right: 15px;
+}
+
+.friend-block {
+  margin-bottom: 15px;
+}

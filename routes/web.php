@@ -22,5 +22,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//Post action list
+Route::get('/note', 'NoteController@index')->name('home');
+
+
+//Friend action list
+Route::get('/friend', 'FriendController@index')->name('view');
 //Route::get('/landing', 'HomeController@landing');
 
